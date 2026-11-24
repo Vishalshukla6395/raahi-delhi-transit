@@ -159,7 +159,7 @@ Missing vehicle IDs, partial sampling and ticket transaction-time uncertainty pr
 
 ## Team and source
 
-Team Turing: Vishal Shukla (lead), Sujit Verma and Saurabh Kumar.
+Team Turing: Vishal Shukla, Sujit Verma and Saurabh Kumar.
 
 Source: https://github.com/Vishalshukla6395/raahi-delhi-transit
 
