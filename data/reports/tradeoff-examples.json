@@ -1,0 +1,1445 @@
+{
+  "protocol": "100 covered patterns x three origin positions x four times; direct only, weekday. Search for examples, not representative impact evaluation. Both alternatives require complete coverage and Moderate evidence.",
+  "checked": 1200,
+  "case_count": 2,
+  "cases": [
+    {
+      "origin": {
+        "id": "2301",
+        "name": "Hamdard Nagar / Sangam Vihar",
+        "lat": 28.51206008001974,
+        "lon": 77.2487081586769
+      },
+      "destination": {
+        "id": "2848",
+        "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+        "lat": 28.4995,
+        "lon": 77.299267
+      },
+      "departure": "2026-11-24T20:00:00+05:30",
+      "index_points_lower": 15,
+      "extra_minutes": 4,
+      "fastest": {
+        "id": "0",
+        "legs": [
+          {
+            "pattern_id": "0ca69313f3b20be8",
+            "route": "717ADOWN",
+            "trip_id": "2170_FULL_18_55",
+            "origin": {
+              "id": "2301",
+              "name": "Hamdard Nagar / Sangam Vihar",
+              "lat": 28.51206008001974,
+              "lon": 77.2487081586769
+            },
+            "destination": {
+              "id": "2848",
+              "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+              "lat": 28.4995,
+              "lon": 77.299267
+            },
+            "departure": "2026-11-24T20:01:24+05:30",
+            "arrival": "2026-11-24T20:18:42+05:30",
+            "segments": [
+              {
+                "id": "0ca69313f3b20be8:34",
+                "start": {
+                  "id": "2301",
+                  "name": "Hamdard Nagar / Sangam Vihar",
+                  "lat": 28.51206008001974,
+                  "lon": 77.2487081586769
+                },
+                "end": {
+                  "id": "2461",
+                  "name": "Air Force Station",
+                  "lat": 28.511683,
+                  "lon": 77.255467
+                },
+                "minutes": 2.22,
+                "prediction": {
+                  "expected": 11.323,
+                  "same_slot_expected": 11.323,
+                  "seasonal_expected": 12.599,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 336,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    19.0
+                  ],
+                  "variability": 0.496,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:35",
+                "start": {
+                  "id": "2461",
+                  "name": "Air Force Station",
+                  "lat": 28.511683,
+                  "lon": 77.255467
+                },
+                "end": {
+                  "id": "2463",
+                  "name": "Tughlaqabad Village",
+                  "lat": 28.509283,
+                  "lon": 77.265
+                },
+                "minutes": 3.23,
+                "prediction": {
+                  "expected": 11.387,
+                  "same_slot_expected": 11.387,
+                  "seasonal_expected": 12.686,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 338,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    19.0
+                  ],
+                  "variability": 0.492,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:36",
+                "start": {
+                  "id": "2463",
+                  "name": "Tughlaqabad Village",
+                  "lat": 28.509283,
+                  "lon": 77.265
+                },
+                "end": {
+                  "id": "2464",
+                  "name": "Kaya Maya Hospital",
+                  "lat": 28.50825,
+                  "lon": 77.269017
+                },
+                "minutes": 1.37,
+                "prediction": {
+                  "expected": 10.871,
+                  "same_slot_expected": 10.871,
+                  "seasonal_expected": 12.105,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 321,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    17.0
+                  ],
+                  "variability": 0.498,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:37",
+                "start": {
+                  "id": "2464",
+                  "name": "Kaya Maya Hospital",
+                  "lat": 28.50825,
+                  "lon": 77.269017
+                },
+                "end": {
+                  "id": "2465",
+                  "name": "MB Road / Okhla More",
+                  "lat": 28.5056919311949,
+                  "lon": 77.27637559175491
+                },
+                "minutes": 2.58,
+                "prediction": {
+                  "expected": 10.742,
+                  "same_slot_expected": 10.742,
+                  "seasonal_expected": 11.969,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 317,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    17.0
+                  ],
+                  "variability": 0.5,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:38",
+                "start": {
+                  "id": "2465",
+                  "name": "MB Road / Okhla More",
+                  "lat": 28.5056919311949,
+                  "lon": 77.27637559175491
+                },
+                "end": {
+                  "id": "2844",
+                  "name": "Prem Nagar",
+                  "lat": 28.50435668683776,
+                  "lon": 77.27908015245704
+                },
+                "minutes": 1.0,
+                "prediction": {
+                  "expected": 10.613,
+                  "same_slot_expected": 10.613,
+                  "seasonal_expected": 11.834,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 311,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    17.0
+                  ],
+                  "variability": 0.513,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:39",
+                "start": {
+                  "id": "2844",
+                  "name": "Prem Nagar",
+                  "lat": 28.50435668683776,
+                  "lon": 77.27908015245704
+                },
+                "end": {
+                  "id": "2845",
+                  "name": "Lal Kuan",
+                  "lat": 28.50251852910567,
+                  "lon": 77.28455185884741
+                },
+                "minutes": 1.92,
+                "prediction": {
+                  "expected": 10.548,
+                  "same_slot_expected": 10.548,
+                  "seasonal_expected": 11.826,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 310,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    17.0
+                  ],
+                  "variability": 0.519,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:40",
+                "start": {
+                  "id": "2845",
+                  "name": "Lal Kuan",
+                  "lat": 28.50251852910567,
+                  "lon": 77.28455185884741
+                },
+                "end": {
+                  "id": "2846",
+                  "name": "Surajkund Crossing",
+                  "lat": 28.50174033993364,
+                  "lon": 77.29048311715816
+                },
+                "minutes": 1.95,
+                "prediction": {
+                  "expected": 9.742,
+                  "same_slot_expected": 9.742,
+                  "seasonal_expected": 10.969,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 286,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    16.0
+                  ],
+                  "variability": 0.507,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:41",
+                "start": {
+                  "id": "2846",
+                  "name": "Surajkund Crossing",
+                  "lat": 28.50174033993364,
+                  "lon": 77.29048311715816
+                },
+                "end": {
+                  "id": "2847",
+                  "name": "Pul Pehladpur (Badarpur)",
+                  "lat": 28.49999327708774,
+                  "lon": 77.29454845200964
+                },
+                "minutes": 1.48,
+                "prediction": {
+                  "expected": 9.484,
+                  "same_slot_expected": 9.484,
+                  "seasonal_expected": 10.618,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 278,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    4.0,
+                    16.0
+                  ],
+                  "variability": 0.507,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "0ca69313f3b20be8:42",
+                "start": {
+                  "id": "2847",
+                  "name": "Pul Pehladpur (Badarpur)",
+                  "lat": 28.49999327708774,
+                  "lon": 77.29454845200964
+                },
+                "end": {
+                  "id": "2848",
+                  "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+                  "lat": 28.4995,
+                  "lon": 77.299267
+                },
+                "minutes": 1.55,
+                "prediction": {
+                  "expected": 8.258,
+                  "same_slot_expected": 8.258,
+                  "seasonal_expected": 9.191,
+                  "observed_days": 31,
+                  "calendar_days": 31,
+                  "tickets": 241,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    3.0,
+                    16.0
+                  ],
+                  "variability": 0.55,
+                  "index": 99,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              }
+            ]
+          }
+        ],
+        "duration_minutes": 19,
+        "ride_minutes": 17,
+        "transfers": 0,
+        "demand_index": 99,
+        "prediction_coverage": 1.0,
+        "evidence": "moderate",
+        "timing_basis": "GTFS schedule estimate; unverified against actual travel times",
+        "geometry_basis": "Straight links between GTFS stops; not road-following shapes",
+        "score": 1.0,
+        "explanation": "19 min from requested departure, 0 transfer(s). Lower relative sampled demand contributes to comfort ranking; occupancy is unverified."
+      },
+      "comfort": {
+        "id": "10",
+        "legs": [
+          {
+            "pattern_id": "5caf1e3464f15143",
+            "route": "544UP",
+            "trip_id": "2074_FULL_19_10",
+            "origin": {
+              "id": "2301",
+              "name": "Hamdard Nagar / Sangam Vihar",
+              "lat": 28.51206008001974,
+              "lon": 77.2487081586769
+            },
+            "destination": {
+              "id": "2848",
+              "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+              "lat": 28.4995,
+              "lon": 77.299267
+            },
+            "departure": "2026-11-24T20:05:45+05:30",
+            "arrival": "2026-11-24T20:23:03+05:30",
+            "segments": [
+              {
+                "id": "5caf1e3464f15143:36",
+                "start": {
+                  "id": "2301",
+                  "name": "Hamdard Nagar / Sangam Vihar",
+                  "lat": 28.51206008001974,
+                  "lon": 77.2487081586769
+                },
+                "end": {
+                  "id": "2461",
+                  "name": "Air Force Station",
+                  "lat": 28.511683,
+                  "lon": 77.255467
+                },
+                "minutes": 2.22,
+                "prediction": {
+                  "expected": 2.323,
+                  "same_slot_expected": 2.323,
+                  "seasonal_expected": 2.199,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 68,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.753,
+                  "index": 85,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:37",
+                "start": {
+                  "id": "2461",
+                  "name": "Air Force Station",
+                  "lat": 28.511683,
+                  "lon": 77.255467
+                },
+                "end": {
+                  "id": "5925",
+                  "name": "Tuglkabad Fort",
+                  "lat": 28.51001,
+                  "lon": 77.263542
+                },
+                "minutes": 2.7,
+                "prediction": {
+                  "expected": 2.258,
+                  "same_slot_expected": 2.258,
+                  "seasonal_expected": 2.191,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 67,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.779,
+                  "index": 85,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:38",
+                "start": {
+                  "id": "5925",
+                  "name": "Tuglkabad Fort",
+                  "lat": 28.51001,
+                  "lon": 77.263542
+                },
+                "end": {
+                  "id": "2463",
+                  "name": "Tughlaqabad Village",
+                  "lat": 28.509283,
+                  "lon": 77.265
+                },
+                "minutes": 0.55,
+                "prediction": {
+                  "expected": 2.161,
+                  "same_slot_expected": 2.161,
+                  "seasonal_expected": 2.059,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 65,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.798,
+                  "index": 84,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:39",
+                "start": {
+                  "id": "2463",
+                  "name": "Tughlaqabad Village",
+                  "lat": 28.509283,
+                  "lon": 77.265
+                },
+                "end": {
+                  "id": "2464",
+                  "name": "Kaya Maya Hospital",
+                  "lat": 28.50825,
+                  "lon": 77.269017
+                },
+                "minutes": 1.37,
+                "prediction": {
+                  "expected": 2.129,
+                  "same_slot_expected": 2.129,
+                  "seasonal_expected": 2.095,
+                  "observed_days": 26,
+                  "calendar_days": 31,
+                  "tickets": 62,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.833,
+                  "index": 84,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:40",
+                "start": {
+                  "id": "2464",
+                  "name": "Kaya Maya Hospital",
+                  "lat": 28.50825,
+                  "lon": 77.269017
+                },
+                "end": {
+                  "id": "2844",
+                  "name": "Prem Nagar",
+                  "lat": 28.50435668683776,
+                  "lon": 77.27908015245704
+                },
+                "minutes": 3.58,
+                "prediction": {
+                  "expected": 2.258,
+                  "same_slot_expected": 2.258,
+                  "seasonal_expected": 2.151,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 64,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.779,
+                  "index": 85,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:41",
+                "start": {
+                  "id": "2844",
+                  "name": "Prem Nagar",
+                  "lat": 28.50435668683776,
+                  "lon": 77.27908015245704
+                },
+                "end": {
+                  "id": "2845",
+                  "name": "Lal Kuan",
+                  "lat": 28.50251852910567,
+                  "lon": 77.28455185884741
+                },
+                "minutes": 1.9,
+                "prediction": {
+                  "expected": 2.226,
+                  "same_slot_expected": 2.226,
+                  "seasonal_expected": 2.147,
+                  "observed_days": 26,
+                  "calendar_days": 31,
+                  "tickets": 63,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.763,
+                  "index": 84,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:42",
+                "start": {
+                  "id": "2845",
+                  "name": "Lal Kuan",
+                  "lat": 28.50251852910567,
+                  "lon": 77.28455185884741
+                },
+                "end": {
+                  "id": "2846",
+                  "name": "Surajkund Crossing",
+                  "lat": 28.50174033993364,
+                  "lon": 77.29048311715816
+                },
+                "minutes": 1.97,
+                "prediction": {
+                  "expected": 2.226,
+                  "same_slot_expected": 2.226,
+                  "seasonal_expected": 2.227,
+                  "observed_days": 26,
+                  "calendar_days": 31,
+                  "tickets": 63,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.763,
+                  "index": 84,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:43",
+                "start": {
+                  "id": "2846",
+                  "name": "Surajkund Crossing",
+                  "lat": 28.50174033993364,
+                  "lon": 77.29048311715816
+                },
+                "end": {
+                  "id": "2847",
+                  "name": "Pul Pehladpur (Badarpur)",
+                  "lat": 28.49999327708774,
+                  "lon": 77.29454845200964
+                },
+                "minutes": 1.47,
+                "prediction": {
+                  "expected": 2.161,
+                  "same_slot_expected": 2.161,
+                  "seasonal_expected": 2.139,
+                  "observed_days": 25,
+                  "calendar_days": 31,
+                  "tickets": 61,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.78,
+                  "index": 84,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "5caf1e3464f15143:44",
+                "start": {
+                  "id": "2847",
+                  "name": "Pul Pehladpur (Badarpur)",
+                  "lat": 28.49999327708774,
+                  "lon": 77.29454845200964
+                },
+                "end": {
+                  "id": "2848",
+                  "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+                  "lat": 28.4995,
+                  "lon": 77.299267
+                },
+                "minutes": 1.55,
+                "prediction": {
+                  "expected": 1.548,
+                  "same_slot_expected": 1.548,
+                  "seasonal_expected": 1.626,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 46,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    3.0
+                  ],
+                  "variability": 0.911,
+                  "index": 77,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              }
+            ]
+          }
+        ],
+        "duration_minutes": 23,
+        "ride_minutes": 17,
+        "transfers": 0,
+        "demand_index": 84,
+        "prediction_coverage": 1.0,
+        "evidence": "moderate",
+        "timing_basis": "GTFS schedule estimate; unverified against actual travel times",
+        "geometry_basis": "Straight links between GTFS stops; not road-following shapes",
+        "score": 0.8486,
+        "explanation": "23 min from requested departure, 0 transfer(s). Lower relative sampled demand contributes to comfort ranking; occupancy is unverified."
+      }
+    },
+    {
+      "origin": {
+        "id": "7665",
+        "name": "Uttri Pitam Pura",
+        "lat": 28.71481679450447,
+        "lon": 77.13926441901747
+      },
+      "destination": {
+        "id": "7655",
+        "name": "Mangol Pur School (Outer Ring Road)",
+        "lat": 28.69437164360308,
+        "lon": 77.1063168360031
+      },
+      "departure": "2026-11-24T08:00:00+05:30",
+      "index_points_lower": 11,
+      "extra_minutes": 1,
+      "fastest": {
+        "id": "47",
+        "legs": [
+          {
+            "pattern_id": "ebc874107ba8d8d3",
+            "route": "MC715DOWN",
+            "trip_id": "1404_FULL_07_37",
+            "origin": {
+              "id": "7665",
+              "name": "Uttri Pitam Pura",
+              "lat": 28.71481679450447,
+              "lon": 77.13926441901747
+            },
+            "destination": {
+              "id": "7655",
+              "name": "Mangol Pur School (Outer Ring Road)",
+              "lat": 28.69437164360308,
+              "lon": 77.1063168360031
+            },
+            "departure": "2026-11-24T08:00:36+05:30",
+            "arrival": "2026-11-24T08:14:22+05:30",
+            "segments": [
+              {
+                "id": "ebc874107ba8d8d3:13",
+                "start": {
+                  "id": "7665",
+                  "name": "Uttri Pitam Pura",
+                  "lat": 28.71481679450447,
+                  "lon": 77.13926441901747
+                },
+                "end": {
+                  "id": "769",
+                  "name": "Pitampura RU Block",
+                  "lat": 28.71051090585357,
+                  "lon": 77.13700321688592
+                },
+                "minutes": 1.75,
+                "prediction": {
+                  "expected": 2.645,
+                  "same_slot_expected": 2.645,
+                  "seasonal_expected": 2.757,
+                  "observed_days": 28,
+                  "calendar_days": 31,
+                  "tickets": 78,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    1.0,
+                    6.0
+                  ],
+                  "variability": 0.716,
+                  "index": 88,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:14",
+                "start": {
+                  "id": "769",
+                  "name": "Pitampura RU Block",
+                  "lat": 28.71051090585357,
+                  "lon": 77.13700321688592
+                },
+                "end": {
+                  "id": "2025",
+                  "name": "Pitampura Power House",
+                  "lat": 28.70751767855292,
+                  "lon": 77.13425411306278
+                },
+                "minutes": 1.42,
+                "prediction": {
+                  "expected": 2.645,
+                  "same_slot_expected": 2.645,
+                  "seasonal_expected": 2.717,
+                  "observed_days": 28,
+                  "calendar_days": 31,
+                  "tickets": 78,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    1.0,
+                    6.0
+                  ],
+                  "variability": 0.689,
+                  "index": 88,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:15",
+                "start": {
+                  "id": "2025",
+                  "name": "Pitampura Power House",
+                  "lat": 28.70751767855292,
+                  "lon": 77.13425411306278
+                },
+                "end": {
+                  "id": "4811",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.70321466268476,
+                  "lon": 77.13059028470383
+                },
+                "minutes": 1.98,
+                "prediction": {
+                  "expected": 2.419,
+                  "same_slot_expected": 2.419,
+                  "seasonal_expected": 2.45,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 71,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.755,
+                  "index": 86,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:16",
+                "start": {
+                  "id": "4811",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.70321466268476,
+                  "lon": 77.13059028470383
+                },
+                "end": {
+                  "id": "743",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.701725,
+                  "lon": 77.128186
+                },
+                "minutes": 0.97,
+                "prediction": {
+                  "expected": 2.419,
+                  "same_slot_expected": 2.419,
+                  "seasonal_expected": 2.45,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 71,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.755,
+                  "index": 86,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:17",
+                "start": {
+                  "id": "743",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.701725,
+                  "lon": 77.128186
+                },
+                "end": {
+                  "id": "744",
+                  "name": "Saraswati  Vihar C Block",
+                  "lat": 28.69949842150407,
+                  "lon": 77.12371344419974
+                },
+                "minutes": 1.67,
+                "prediction": {
+                  "expected": 2.419,
+                  "same_slot_expected": 2.419,
+                  "seasonal_expected": 2.45,
+                  "observed_days": 27,
+                  "calendar_days": 31,
+                  "tickets": 71,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    5.0
+                  ],
+                  "variability": 0.755,
+                  "index": 86,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:18",
+                "start": {
+                  "id": "744",
+                  "name": "Saraswati  Vihar C Block",
+                  "lat": 28.69949842150407,
+                  "lon": 77.12371344419974
+                },
+                "end": {
+                  "id": "745",
+                  "name": "Deepali Chowk Ring Road",
+                  "lat": 28.69786562638538,
+                  "lon": 77.11911534486137
+                },
+                "minutes": 1.62,
+                "prediction": {
+                  "expected": 1.774,
+                  "same_slot_expected": 1.774,
+                  "seasonal_expected": 1.733,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 51,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.947,
+                  "index": 80,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:19",
+                "start": {
+                  "id": "745",
+                  "name": "Deepali Chowk Ring Road",
+                  "lat": 28.69786562638538,
+                  "lon": 77.11911534486137
+                },
+                "end": {
+                  "id": "7659",
+                  "name": "Kali Mata Mandir",
+                  "lat": 28.69710258763021,
+                  "lon": 77.11615115614305
+                },
+                "minutes": 1.0,
+                "prediction": {
+                  "expected": 1.645,
+                  "same_slot_expected": 1.645,
+                  "seasonal_expected": 1.637,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 47,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.907,
+                  "index": 78,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:20",
+                "start": {
+                  "id": "7659",
+                  "name": "Kali Mata Mandir",
+                  "lat": 28.69710258763021,
+                  "lon": 77.11615115614305
+                },
+                "end": {
+                  "id": "747",
+                  "name": "Puspanjali Enclave",
+                  "lat": 28.6959591737209,
+                  "lon": 77.11166649793863
+                },
+                "minutes": 1.53,
+                "prediction": {
+                  "expected": 1.613,
+                  "same_slot_expected": 1.613,
+                  "seasonal_expected": 1.594,
+                  "observed_days": 23,
+                  "calendar_days": 31,
+                  "tickets": 46,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.872,
+                  "index": 78,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:21",
+                "start": {
+                  "id": "747",
+                  "name": "Puspanjali Enclave",
+                  "lat": 28.6959591737209,
+                  "lon": 77.11166649793863
+                },
+                "end": {
+                  "id": "7660",
+                  "name": "Rohini Depot 3",
+                  "lat": 28.69512395280401,
+                  "lon": 77.10885822772981
+                },
+                "minutes": 0.97,
+                "prediction": {
+                  "expected": 1.548,
+                  "same_slot_expected": 1.548,
+                  "seasonal_expected": 1.466,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 44,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.911,
+                  "index": 77,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "ebc874107ba8d8d3:22",
+                "start": {
+                  "id": "7660",
+                  "name": "Rohini Depot 3",
+                  "lat": 28.69512395280401,
+                  "lon": 77.10885822772981
+                },
+                "end": {
+                  "id": "7655",
+                  "name": "Mangol Pur School (Outer Ring Road)",
+                  "lat": 28.69437164360308,
+                  "lon": 77.1063168360031
+                },
+                "minutes": 0.87,
+                "prediction": {
+                  "expected": 1.548,
+                  "same_slot_expected": 1.548,
+                  "seasonal_expected": 1.466,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 44,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    4.0
+                  ],
+                  "variability": 0.911,
+                  "index": 77,
+                  "category": "Highest demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              }
+            ]
+          }
+        ],
+        "duration_minutes": 14,
+        "ride_minutes": 14,
+        "transfers": 0,
+        "demand_index": 83,
+        "prediction_coverage": 1.0,
+        "evidence": "moderate",
+        "timing_basis": "GTFS schedule estimate; unverified against actual travel times",
+        "geometry_basis": "Straight links between GTFS stops; not road-following shapes",
+        "score": 1.0,
+        "explanation": "14 min from requested departure, 0 transfer(s). Lower relative sampled demand contributes to comfort ranking; occupancy is unverified."
+      },
+      "comfort": {
+        "id": "0",
+        "legs": [
+          {
+            "pattern_id": "14ad07864acf80f5",
+            "route": "883UP",
+            "trip_id": "2373_FULL_07_15",
+            "origin": {
+              "id": "7665",
+              "name": "Uttri Pitam Pura",
+              "lat": 28.71481679450447,
+              "lon": 77.13926441901747
+            },
+            "destination": {
+              "id": "7655",
+              "name": "Mangol Pur School (Outer Ring Road)",
+              "lat": 28.69437164360308,
+              "lon": 77.1063168360031
+            },
+            "departure": "2026-11-24T08:01:20+05:30",
+            "arrival": "2026-11-24T08:15:06+05:30",
+            "segments": [
+              {
+                "id": "14ad07864acf80f5:27",
+                "start": {
+                  "id": "7665",
+                  "name": "Uttri Pitam Pura",
+                  "lat": 28.71481679450447,
+                  "lon": 77.13926441901747
+                },
+                "end": {
+                  "id": "769",
+                  "name": "Pitampura RU Block",
+                  "lat": 28.71051090585357,
+                  "lon": 77.13700321688592
+                },
+                "minutes": 1.75,
+                "prediction": {
+                  "expected": 1.226,
+                  "same_slot_expected": 1.226,
+                  "seasonal_expected": 1.387,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 35,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    2.0
+                  ],
+                  "variability": 0.847,
+                  "index": 71,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:28",
+                "start": {
+                  "id": "769",
+                  "name": "Pitampura RU Block",
+                  "lat": 28.71051090585357,
+                  "lon": 77.13700321688592
+                },
+                "end": {
+                  "id": "2025",
+                  "name": "Pitampura Power House",
+                  "lat": 28.70751767855292,
+                  "lon": 77.13425411306278
+                },
+                "minutes": 1.42,
+                "prediction": {
+                  "expected": 1.29,
+                  "same_slot_expected": 1.29,
+                  "seasonal_expected": 1.475,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 37,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    2.0
+                  ],
+                  "variability": 0.862,
+                  "index": 72,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:29",
+                "start": {
+                  "id": "2025",
+                  "name": "Pitampura Power House",
+                  "lat": 28.70751767855292,
+                  "lon": 77.13425411306278
+                },
+                "end": {
+                  "id": "4811",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.70321466268476,
+                  "lon": 77.13059028470383
+                },
+                "minutes": 2.0,
+                "prediction": {
+                  "expected": 1.323,
+                  "same_slot_expected": 1.323,
+                  "seasonal_expected": 1.519,
+                  "observed_days": 23,
+                  "calendar_days": 31,
+                  "tickets": 38,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    2.0
+                  ],
+                  "variability": 0.867,
+                  "index": 73,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:30",
+                "start": {
+                  "id": "4811",
+                  "name": "Madhuban Chowk Outer Ring Road",
+                  "lat": 28.70321466268476,
+                  "lon": 77.13059028470383
+                },
+                "end": {
+                  "id": "744",
+                  "name": "Saraswati  Vihar C Block",
+                  "lat": 28.69949842150407,
+                  "lon": 77.12371344419974
+                },
+                "minutes": 2.62,
+                "prediction": {
+                  "expected": 1.323,
+                  "same_slot_expected": 1.323,
+                  "seasonal_expected": 1.519,
+                  "observed_days": 23,
+                  "calendar_days": 31,
+                  "tickets": 38,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    2.0
+                  ],
+                  "variability": 0.867,
+                  "index": 73,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:31",
+                "start": {
+                  "id": "744",
+                  "name": "Saraswati  Vihar C Block",
+                  "lat": 28.69949842150407,
+                  "lon": 77.12371344419974
+                },
+                "end": {
+                  "id": "7659",
+                  "name": "Kali Mata Mandir",
+                  "lat": 28.69710258763021,
+                  "lon": 77.11615115614305
+                },
+                "minutes": 2.62,
+                "prediction": {
+                  "expected": 1.323,
+                  "same_slot_expected": 1.323,
+                  "seasonal_expected": 1.439,
+                  "observed_days": 24,
+                  "calendar_days": 31,
+                  "tickets": 38,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    2.0
+                  ],
+                  "variability": 0.801,
+                  "index": 73,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:32",
+                "start": {
+                  "id": "7659",
+                  "name": "Kali Mata Mandir",
+                  "lat": 28.69710258763021,
+                  "lon": 77.11615115614305
+                },
+                "end": {
+                  "id": "747",
+                  "name": "Puspanjali Enclave",
+                  "lat": 28.6959591737209,
+                  "lon": 77.11166649793863
+                },
+                "minutes": 1.53,
+                "prediction": {
+                  "expected": 1.355,
+                  "same_slot_expected": 1.355,
+                  "seasonal_expected": 1.483,
+                  "observed_days": 25,
+                  "calendar_days": 31,
+                  "tickets": 39,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    3.0
+                  ],
+                  "variability": 0.763,
+                  "index": 73,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:33",
+                "start": {
+                  "id": "747",
+                  "name": "Puspanjali Enclave",
+                  "lat": 28.6959591737209,
+                  "lon": 77.11166649793863
+                },
+                "end": {
+                  "id": "7660",
+                  "name": "Rohini Depot 3",
+                  "lat": 28.69512395280401,
+                  "lon": 77.10885822772981
+                },
+                "minutes": 0.97,
+                "prediction": {
+                  "expected": 1.29,
+                  "same_slot_expected": 1.29,
+                  "seasonal_expected": 1.395,
+                  "observed_days": 24,
+                  "calendar_days": 31,
+                  "tickets": 38,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    3.0
+                  ],
+                  "variability": 0.816,
+                  "index": 72,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              },
+              {
+                "id": "14ad07864acf80f5:34",
+                "start": {
+                  "id": "7660",
+                  "name": "Rohini Depot 3",
+                  "lat": 28.69512395280401,
+                  "lon": 77.10885822772981
+                },
+                "end": {
+                  "id": "7655",
+                  "name": "Mangol Pur School (Outer Ring Road)",
+                  "lat": 28.69437164360308,
+                  "lon": 77.1063168360031
+                },
+                "minutes": 0.87,
+                "prediction": {
+                  "expected": 1.226,
+                  "same_slot_expected": 1.226,
+                  "seasonal_expected": 1.387,
+                  "observed_days": 22,
+                  "calendar_days": 31,
+                  "tickets": 36,
+                  "evidence": "moderate",
+                  "backoff": "all-days same time slot",
+                  "historical_range": [
+                    0.0,
+                    3.0
+                  ],
+                  "variability": 0.896,
+                  "index": 71,
+                  "category": "Higher demand",
+                  "historical_through": "2026-10-31",
+                  "definition": "Percentile of expected sampled demand; not percent of vehicle capacity"
+                }
+              }
+            ]
+          }
+        ],
+        "duration_minutes": 15,
+        "ride_minutes": 14,
+        "transfers": 0,
+        "demand_index": 72,
+        "prediction_coverage": 1.0,
+        "evidence": "moderate",
+        "timing_basis": "GTFS schedule estimate; unverified against actual travel times",
+        "geometry_basis": "Straight links between GTFS stops; not road-following shapes",
+        "score": 0.7359,
+        "explanation": "15 min from requested departure, 0 transfer(s). Lower relative sampled demand contributes to comfort ranking; occupancy is unverified."
+      }
+    }
+  ]
+}

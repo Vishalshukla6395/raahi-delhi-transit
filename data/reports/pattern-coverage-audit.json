@@ -1,0 +1,467 @@
+{
+  "status": "PASS",
+  "unique_route_od_pairs": 402462,
+  "pattern_count": 1865,
+  "network_patterns": 3498,
+  "valid_tickets": 2559899,
+  "reasons": {
+    "unmatched_stops_or_direction": 1228307,
+    "matched": 819490,
+    "unknown_route": 40952,
+    "ambiguous_path": 471150
+  },
+  "ranked_patterns": [
+    {
+      "id": "a60641d8c17e9038",
+      "tickets": 14580
+    },
+    {
+      "id": "fba09a2114a427e2",
+      "tickets": 13204
+    },
+    {
+      "id": "0ca69313f3b20be8",
+      "tickets": 12872
+    },
+    {
+      "id": "409431740b8b33c6",
+      "tickets": 10059
+    },
+    {
+      "id": "219004962362feba",
+      "tickets": 8532
+    },
+    {
+      "id": "791e2247d37e1ebc",
+      "tickets": 8526
+    },
+    {
+      "id": "a7757ece935981fe",
+      "tickets": 8511
+    },
+    {
+      "id": "3c37dedf4852381f",
+      "tickets": 8306
+    },
+    {
+      "id": "e3eeccdf9e786938",
+      "tickets": 8237
+    },
+    {
+      "id": "b5baa29f2469d514",
+      "tickets": 7973
+    },
+    {
+      "id": "a9a4385ecd1f591f",
+      "tickets": 6402
+    },
+    {
+      "id": "9344e1d13ffa69aa",
+      "tickets": 6377
+    },
+    {
+      "id": "7798c60f13304a3f",
+      "tickets": 6195
+    },
+    {
+      "id": "a02a27757106d1cf",
+      "tickets": 6187
+    },
+    {
+      "id": "ea56a5875dd55eca",
+      "tickets": 6030
+    },
+    {
+      "id": "fd51c4bc0870ddfa",
+      "tickets": 5927
+    },
+    {
+      "id": "889600dfa87b3222",
+      "tickets": 5850
+    },
+    {
+      "id": "ddc82edb1ef6e82f",
+      "tickets": 5358
+    },
+    {
+      "id": "9b4bae155f9f59a8",
+      "tickets": 4959
+    },
+    {
+      "id": "27c30039acb46ed5",
+      "tickets": 4950
+    },
+    {
+      "id": "14ad07864acf80f5",
+      "tickets": 4901
+    },
+    {
+      "id": "061fb4262436f09f",
+      "tickets": 4653
+    },
+    {
+      "id": "a3cb7d79be6b8ef7",
+      "tickets": 4545
+    },
+    {
+      "id": "f0b243f15f3428f8",
+      "tickets": 4498
+    },
+    {
+      "id": "0417f76bd67ad6c6",
+      "tickets": 4311
+    },
+    {
+      "id": "019bf2eaf81e3136",
+      "tickets": 4291
+    },
+    {
+      "id": "bdca2092a84220ac",
+      "tickets": 4263
+    },
+    {
+      "id": "e69716ac58f60f87",
+      "tickets": 4201
+    },
+    {
+      "id": "4883bca76c5da13b",
+      "tickets": 4062
+    },
+    {
+      "id": "d094a4f8bc00d5e1",
+      "tickets": 3962
+    },
+    {
+      "id": "fb72e43b24d24277",
+      "tickets": 3909
+    },
+    {
+      "id": "37943c887da7e606",
+      "tickets": 3781
+    },
+    {
+      "id": "a2783df46fdcc489",
+      "tickets": 3740
+    },
+    {
+      "id": "28a25d84ee2940aa",
+      "tickets": 3712
+    },
+    {
+      "id": "1946d1bb81ed7e53",
+      "tickets": 3656
+    },
+    {
+      "id": "d0efa684f8640390",
+      "tickets": 3581
+    },
+    {
+      "id": "288fe0dbbd1eef41",
+      "tickets": 3485
+    },
+    {
+      "id": "69e39a91dc1826bc",
+      "tickets": 3458
+    },
+    {
+      "id": "66d8b2ecd29f6352",
+      "tickets": 3416
+    },
+    {
+      "id": "d474e14f9ae0f29a",
+      "tickets": 3408
+    },
+    {
+      "id": "f7aaddf194bd4acc",
+      "tickets": 3383
+    },
+    {
+      "id": "455757e614f5fc1b",
+      "tickets": 3365
+    },
+    {
+      "id": "be14b5b381b933b7",
+      "tickets": 3363
+    },
+    {
+      "id": "b786e2331e017d77",
+      "tickets": 3362
+    },
+    {
+      "id": "bcf83a0793ab7b59",
+      "tickets": 3341
+    },
+    {
+      "id": "349ca9d5dc17a006",
+      "tickets": 3313
+    },
+    {
+      "id": "c23d4884fbe05430",
+      "tickets": 3283
+    },
+    {
+      "id": "6a2f7e01b81b24f7",
+      "tickets": 3228
+    },
+    {
+      "id": "983d0c411d45db64",
+      "tickets": 3216
+    },
+    {
+      "id": "b0e6c42a43a5e9eb",
+      "tickets": 3199
+    },
+    {
+      "id": "275f0a1ad7977e9a",
+      "tickets": 3157
+    },
+    {
+      "id": "9fdaf57e84887067",
+      "tickets": 3074
+    },
+    {
+      "id": "190f9b09bbe2ca03",
+      "tickets": 2998
+    },
+    {
+      "id": "f8eea711b1b31783",
+      "tickets": 2960
+    },
+    {
+      "id": "d3ee2b4c747d96c8",
+      "tickets": 2935
+    },
+    {
+      "id": "811aba1e2cbc9566",
+      "tickets": 2917
+    },
+    {
+      "id": "2aa3f28057c0b3d0",
+      "tickets": 2916
+    },
+    {
+      "id": "3ca5ea0ad0014646",
+      "tickets": 2863
+    },
+    {
+      "id": "b22afc89f77587f5",
+      "tickets": 2832
+    },
+    {
+      "id": "ebc874107ba8d8d3",
+      "tickets": 2733
+    },
+    {
+      "id": "94699de4d678a080",
+      "tickets": 2724
+    },
+    {
+      "id": "b7e511d250daade2",
+      "tickets": 2683
+    },
+    {
+      "id": "982e48442ea8432e",
+      "tickets": 2663
+    },
+    {
+      "id": "a8753dfa26c64b2f",
+      "tickets": 2587
+    },
+    {
+      "id": "a538ddaa8ba6e1e3",
+      "tickets": 2586
+    },
+    {
+      "id": "8329e5140029327a",
+      "tickets": 2570
+    },
+    {
+      "id": "0cdfbaae3657b474",
+      "tickets": 2511
+    },
+    {
+      "id": "336838a887e1e58c",
+      "tickets": 2504
+    },
+    {
+      "id": "3a88b4824223cc15",
+      "tickets": 2475
+    },
+    {
+      "id": "a338956cbe6c56f7",
+      "tickets": 2433
+    },
+    {
+      "id": "3dfc94e1cf0a8ac8",
+      "tickets": 2426
+    },
+    {
+      "id": "94bbf6aa7dc071fc",
+      "tickets": 2392
+    },
+    {
+      "id": "11b9618547be3650",
+      "tickets": 2322
+    },
+    {
+      "id": "c2a17ba361d03485",
+      "tickets": 2193
+    },
+    {
+      "id": "c4796ff76e307d8e",
+      "tickets": 2173
+    },
+    {
+      "id": "6e4591d9e64488bc",
+      "tickets": 2171
+    },
+    {
+      "id": "732313ee7435cb6f",
+      "tickets": 2138
+    },
+    {
+      "id": "5caf1e3464f15143",
+      "tickets": 2131
+    },
+    {
+      "id": "f772c0323ad77f75",
+      "tickets": 2102
+    },
+    {
+      "id": "4dea591c98b1124f",
+      "tickets": 2087
+    },
+    {
+      "id": "a8b73ec255a463d7",
+      "tickets": 2076
+    },
+    {
+      "id": "81b145c128acfdd6",
+      "tickets": 2073
+    },
+    {
+      "id": "6e30beb255d38e11",
+      "tickets": 2067
+    },
+    {
+      "id": "75758bab52e596ad",
+      "tickets": 2051
+    },
+    {
+      "id": "cd7e36a1a13e2b2f",
+      "tickets": 2045
+    },
+    {
+      "id": "d4b9b041367e24f8",
+      "tickets": 2038
+    },
+    {
+      "id": "a524b68312b61eaa",
+      "tickets": 2016
+    },
+    {
+      "id": "cf59ffa9951afc46",
+      "tickets": 1994
+    },
+    {
+      "id": "27e6e819e3d7dd2f",
+      "tickets": 1981
+    },
+    {
+      "id": "710d22e2d998ff13",
+      "tickets": 1942
+    },
+    {
+      "id": "85e60d3dd01eb51a",
+      "tickets": 1924
+    },
+    {
+      "id": "58a0f24911e9788e",
+      "tickets": 1911
+    },
+    {
+      "id": "b94122bb9aa06ce8",
+      "tickets": 1904
+    },
+    {
+      "id": "0e99e1470831ed89",
+      "tickets": 1885
+    },
+    {
+      "id": "2536a083cef5dade",
+      "tickets": 1874
+    },
+    {
+      "id": "37591ce4cfb50e96",
+      "tickets": 1851
+    },
+    {
+      "id": "40bd97d4ef627837",
+      "tickets": 1840
+    },
+    {
+      "id": "e958496bed9e794e",
+      "tickets": 1827
+    },
+    {
+      "id": "a731278f369b7eaf",
+      "tickets": 1823
+    },
+    {
+      "id": "53bba4baf4ba7e03",
+      "tickets": 1784
+    }
+  ],
+  "coverage": [
+    {
+      "top_patterns": 30,
+      "share_of_unique_matched_tickets": 0.2474,
+      "share_of_all_valid_tickets": 0.0792,
+      "network_pattern_share": 0.0086,
+      "modeled_ticket_count": 202722
+    },
+    {
+      "top_patterns": 60,
+      "share_of_unique_matched_tickets": 0.3677,
+      "share_of_all_valid_tickets": 0.1177,
+      "network_pattern_share": 0.0172,
+      "modeled_ticket_count": 301306
+    },
+    {
+      "top_patterns": 100,
+      "share_of_unique_matched_tickets": 0.4736,
+      "share_of_all_valid_tickets": 0.1516,
+      "network_pattern_share": 0.0286,
+      "modeled_ticket_count": 388083
+    },
+    {
+      "top_patterns": 150,
+      "share_of_unique_matched_tickets": 0.5678,
+      "share_of_all_valid_tickets": 0.1818,
+      "network_pattern_share": 0.0429,
+      "modeled_ticket_count": 465329
+    },
+    {
+      "top_patterns": 250,
+      "share_of_unique_matched_tickets": 0.6969,
+      "share_of_all_valid_tickets": 0.2231,
+      "network_pattern_share": 0.0715,
+      "modeled_ticket_count": 571140
+    },
+    {
+      "top_patterns": 500,
+      "share_of_unique_matched_tickets": 0.8653,
+      "share_of_all_valid_tickets": 0.277,
+      "network_pattern_share": 0.1429,
+      "modeled_ticket_count": 709093
+    },
+    {
+      "top_patterns": 1865,
+      "share_of_unique_matched_tickets": 1.0,
+      "share_of_all_valid_tickets": 0.3201,
+      "network_pattern_share": 0.5332,
+      "modeled_ticket_count": 819490
+    }
+  ],
+  "caveat": "Only actual unambiguous route/OD pattern matches are counted. Ticket coverage is a digital-record share, not a share of total bus passengers."
+}

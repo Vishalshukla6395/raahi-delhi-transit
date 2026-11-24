@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-11-24T17:16:31.453Z",
+  "browser": "158.0.8127.88",
+  "baseUrl": "http://127.0.0.1:8000",
+  "scope": "Local Chrome automation, not physical device testing",
+  "results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "mapFit": true,
+      "noNestedClipping": true,
+      "routeSelection": true,
+      "laterDepartures": true,
+      "pageErrors": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "modeled_tickets": 388083,
+  "expected_passenger_segment_traversals": 5915129,
+  "actual_passenger_segment_traversals": 5915129,
+  "segment_keys": 4769,
+  "aggregate_rows": 2793293,
+  "sample_matches": [
+    {
+      "route": "114adown",
+      "board": "Ashok Vihar Crossing",
+      "alight": "Azadpur Terminal",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 59,
+      "alight_index": 62,
+      "segments": 3
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Ashok Vihar Crossing",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 59,
+      "segments": 59
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Avantika Xing",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 41,
+      "segments": 41
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Azadpur Terminal",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 62,
+      "segments": 62
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Kohat Enclave Metro Station",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 53,
+      "segments": 53
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Mangol Pur Khurd",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 40,
+      "segments": 40
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Mangol Pur School (Outer Ring Road)",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 43,
+      "segments": 43
+    },
+    {
+      "route": "114adown",
+      "board": "Auchandi Border",
+      "alight": "Mangolpur Kalan Village",
+      "pattern": "66d8b2ecd29f6352",
+      "board_index": 0,
+      "alight_index": 42,
+      "segments": 42
+    }
+  ],
+  "scope": "Independent reconciliation of selected-pattern OD totals and segment totals; not geographic field validation"
+}

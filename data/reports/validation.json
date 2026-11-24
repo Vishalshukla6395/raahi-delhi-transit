@@ -1,0 +1,110 @@
+{
+  "scope": "Route-level ticket demand; segment metrics are reported separately",
+  "selected_minutes": 30,
+  "variants": [
+    {
+      "minutes": 15,
+      "train_dates": [
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "validation_dates": [
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "target": "Observed e-ticket passenger demand per time bin; not physical occupancy",
+      "baseline": {
+        "mae": 0.517,
+        "wape": 1.2003,
+        "rank_correlation": 0.4391,
+        "cells": 1734912
+      },
+      "seasonal": {
+        "mae": 0.3232,
+        "wape": 0.7502,
+        "rank_correlation": 0.6023,
+        "cells": 1734912
+      },
+      "zero_cell_policy": "All dates present in the source and all daily bins included; zero means no observed sampled tickets, not no passengers."
+    },
+    {
+      "minutes": 30,
+      "train_dates": [
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "validation_dates": [
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ],
+      "target": "Observed e-ticket passenger demand per time bin; not physical occupancy",
+      "baseline": {
+        "mae": 0.942,
+        "wape": 1.0935,
+        "rank_correlation": 0.4966,
+        "cells": 867456
+      },
+      "seasonal": {
+        "mae": 0.5068,
+        "wape": 0.5883,
+        "rank_correlation": 0.6825,
+        "cells": 867456
+      },
+      "zero_cell_policy": "All dates present in the source and all daily bins included; zero means no observed sampled tickets, not no passengers."
+    }
+  ]
+}

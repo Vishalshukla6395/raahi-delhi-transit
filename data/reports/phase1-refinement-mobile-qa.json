@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-24T16:54:58.892Z",
+  "browser": "158.0.8127.88",
+  "scope": "Local Chrome with touch emulation on phone sizes; not a physical handset",
+  "results": [
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "hi",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "language": "en",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "language": "hi",
+      "status": "PASS",
+      "buttonWithoutScrolling": true,
+      "midnightOffset": true,
+      "autocomplete": true,
+      "realJourney": true,
+      "explorer": true,
+      "evidence": true,
+      "pageErrors": [],
+      "apiFailures": []
+    }
+  ]
+}

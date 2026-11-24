@@ -1,0 +1,125 @@
+{
+  "daily_validation": {
+    "2026-10-24": {
+      "absolute_error": 52022.31400966182,
+      "actual_passengers": 87457.0,
+      "cells": 108432,
+      "mae": 0.4798,
+      "wape": 0.5948
+    },
+    "2026-10-25": {
+      "absolute_error": 48525.66666666666,
+      "actual_passengers": 56767.0,
+      "cells": 108432,
+      "mae": 0.4475,
+      "wape": 0.8548
+    },
+    "2026-10-26": {
+      "absolute_error": 54826.936956521895,
+      "actual_passengers": 99114.0,
+      "cells": 108432,
+      "mae": 0.5056,
+      "wape": 0.5532
+    },
+    "2026-10-27": {
+      "absolute_error": 57286.85,
+      "actual_passengers": 109569.0,
+      "cells": 108432,
+      "mae": 0.5283,
+      "wape": 0.5228
+    },
+    "2026-10-28": {
+      "absolute_error": 56809.506521739066,
+      "actual_passengers": 107517.0,
+      "cells": 108432,
+      "mae": 0.5239,
+      "wape": 0.5284
+    },
+    "2026-10-29": {
+      "absolute_error": 57362.97608695654,
+      "actual_passengers": 98342.0,
+      "cells": 108432,
+      "mae": 0.529,
+      "wape": 0.5833
+    },
+    "2026-10-30": {
+      "absolute_error": 57609.558695652166,
+      "actual_passengers": 97699.0,
+      "cells": 108432,
+      "mae": 0.5313,
+      "wape": 0.5897
+    },
+    "2026-10-31": {
+      "absolute_error": 55179.79710144921,
+      "actual_passengers": 90818.0,
+      "cells": 108432,
+      "mae": 0.5089,
+      "wape": 0.6076
+    }
+  },
+  "weekday_means": [
+    {
+      "weekday": 1,
+      "observed_days": 4,
+      "mean_daily_sampled_passengers": 96908.25
+    },
+    {
+      "weekday": 2,
+      "observed_days": 4,
+      "mean_daily_sampled_passengers": 90427.25
+    },
+    {
+      "weekday": 3,
+      "observed_days": 4,
+      "mean_daily_sampled_passengers": 105832.0
+    },
+    {
+      "weekday": 4,
+      "observed_days": 5,
+      "mean_daily_sampled_passengers": 103450.8
+    },
+    {
+      "weekday": 5,
+      "observed_days": 5,
+      "mean_daily_sampled_passengers": 91587.4
+    },
+    {
+      "weekday": 6,
+      "observed_days": 5,
+      "mean_daily_sampled_passengers": 81251.0
+    },
+    {
+      "weekday": 7,
+      "observed_days": 4,
+      "mean_daily_sampled_passengers": 49872.5
+    }
+  ],
+  "largest_observed_hours": [
+    {
+      "hour": 9,
+      "passengers": 374218,
+      "tickets": 351443
+    },
+    {
+      "hour": 8,
+      "passengers": 334404,
+      "tickets": 316049
+    },
+    {
+      "hour": 18,
+      "passengers": 254896,
+      "tickets": 235349
+    },
+    {
+      "hour": 19,
+      "passengers": 239134,
+      "tickets": 222243
+    },
+    {
+      "hour": 10,
+      "passengers": 216108,
+      "tickets": 204056
+    }
+  ],
+  "interpretation": "Transaction-demand patterns only. Commute-like peaks are an internal plausibility check, not independent occupancy ground truth."
+}

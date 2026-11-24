@@ -1,0 +1,60 @@
+{
+  "file": "submission/demo.webm",
+  "duration_approx_seconds": 110,
+  "kind": "Actual local application capture with DEMO GUIDE annotations; no fabricated app results; silent video",
+  "viewport": "1440x1000",
+  "chapters": [
+    {
+      "time_seconds": 9,
+      "caption": "RAAHI combines real October ticket history with Delhi bus schedules. This is a sampled-demand signal, not physical onboard crowding."
+    },
+    {
+      "time_seconds": 16,
+      "caption": "A real supported example: Hamdard Nagar / Sangam Vihar to Badarpur M B Road / Rajiv Gandhi Stadium. 2026-11-24T20:00 IST."
+    },
+    {
+      "time_seconds": 23,
+      "caption": "The full GTFS supplies scheduled services. Colored links show sampled demand; straight map links are not road geometry."
+    },
+    {
+      "time_seconds": 31,
+      "caption": "Inspect supporting days and tickets. A demand index of 100 is a historical percentile, not 100% bus capacity."
+    },
+    {
+      "time_seconds": 39,
+      "caption": "Compare the fastest scheduled option with a lower sampled-demand index. Index points do not equal a percentage fewer passengers."
+    },
+    {
+      "time_seconds": 48,
+      "caption": "Compare later departures. Here +30 minutes still has high sampled demand. We do not promise a quieter trip."
+    },
+    {
+      "time_seconds": 56,
+      "caption": "2,559,899 October e-ticket records; matching is selective and may not represent ETM, pass holders or all riders."
+    },
+    {
+      "time_seconds": 63,
+      "caption": "Change route and weekday/weekend date to explore actual historical patterns. The evidence table explains each estimate."
+    },
+    {
+      "time_seconds": 70,
+      "caption": "32.0% of tickets match one unambiguous forward path. The demand model covers 100 of 3,498 patterns."
+    },
+    {
+      "time_seconds": 77,
+      "caption": "The simpler same-slot model is used in the planner. Holdout WAPE is 69.96% versus 69.43% seasonal; the difference is small."
+    },
+    {
+      "time_seconds": 86,
+      "caption": "Same-pattern departure-order agreement is 64.11% for same-slot versus 63.83% seasonal in the final week. Correlated ticket rows do not verify comfort or occupancy."
+    },
+    {
+      "time_seconds": 93,
+      "caption": "4,769 segments across 100 patterns. Full-month volume selected scope; ETM/APC, capacity calibration and a prospective test remain needed."
+    },
+    {
+      "time_seconds": 100,
+      "caption": "No live ETAs, seat guarantees or calibrated occupancy. Reproducible source, methodology and checks accompany the prototype."
+    }
+  ]
+}

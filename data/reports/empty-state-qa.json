@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "status": "PASS",
+      "languages": [
+        "en",
+        "hi"
+      ]
+    }
+  ]
+}

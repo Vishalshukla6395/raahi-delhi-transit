@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-24T15:22:00.468Z",
+  "viewports": [
+    {
+      "viewport": "1920x1080",
+      "name": "desktop-1920",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "1440x900",
+      "name": "desktop-1440",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "1280x720",
+      "name": "desktop-1280",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "768x1024",
+      "name": "tablet-768",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "390x844",
+      "name": "mobile-390",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "360x800",
+      "name": "mobile-360",
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

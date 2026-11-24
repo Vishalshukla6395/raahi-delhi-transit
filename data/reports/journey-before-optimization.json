@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "data": "Official full GTFS and actual October e-ticket records",
+  "demo": {
+    "available": true,
+    "origin": {
+      "id": "2739",
+      "name": "Ambedkar Nagar Terminal",
+      "lat": 28.51584969681918,
+      "lon": 77.22575494221395
+    },
+    "destination": {
+      "id": "2301",
+      "name": "Hamdard Nagar / Sangam Vihar",
+      "lat": 28.51206008001974,
+      "lon": 77.2487081586769
+    },
+    "route": "717ADOWN",
+    "reason": "Selected by matched historical ticket evidence; schedules still depend on date."
+  },
+  "cases": [
+    {
+      "request": {
+        "origin": "2739",
+        "destination": "2301",
+        "departure": "2026-11-24T08:00:00+05:30",
+        "mode": "fastest",
+        "transfers": true
+      },
+      "elapsed_seconds": 28.024,
+      "alternatives": 5,
+      "journeys": [
+        {
+          "routes": [
+            "34UP"
+          ],
+          "duration": 8,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "469DOWN"
+          ],
+          "duration": 8,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "525STLDOWN"
+          ],
+          "duration": 8,
+          "demand_index": 99,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "OMSEV(-)BH"
+          ],
+          "duration": 11,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "440DOWN"
+          ],
+          "duration": 13,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    },
+    {
+      "request": {
+        "origin": "2739",
+        "destination": "2301",
+        "departure": "2026-11-24T18:00:00+05:30",
+        "mode": "balanced",
+        "transfers": true
+      },
+      "elapsed_seconds": 23.006,
+      "alternatives": 3,
+      "journeys": [
+        {
+          "routes": [
+            "525STLDOWN"
+          ],
+          "duration": 8,
+          "demand_index": 100,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "717ADOWN"
+          ],
+          "duration": 11,
+          "demand_index": 99,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "469DOWN"
+          ],
+          "duration": 12,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    },
+    {
+      "request": {
+        "origin": "2739",
+        "destination": "2301",
+        "departure": "2026-11-24T18:00:00+05:30",
+        "mode": "less_crowded",
+        "transfers": true
+      },
+      "elapsed_seconds": 20.034,
+      "alternatives": 3,
+      "journeys": [
+        {
+          "routes": [
+            "525STLDOWN"
+          ],
+          "duration": 8,
+          "demand_index": 100,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "717ADOWN"
+          ],
+          "duration": 11,
+          "demand_index": 99,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "469DOWN"
+          ],
+          "duration": 12,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "browser_verified": false,
+  "scope": "Real localhost HTTP integration; not browser or field verification"
+}

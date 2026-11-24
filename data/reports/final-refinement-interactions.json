@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-24T17:16:57.946Z",
+  "realTransfer": true,
+  "waitMinutes": 6,
+  "unknownDemand": true,
+  "intermediateStops": true,
+  "mobileResultsJump": true,
+  "mapRefitAcrossResize": [
+    1440,
+    360,
+    1920
+  ],
+  "explorerFilter": true
+}

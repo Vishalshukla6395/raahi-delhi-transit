@@ -1,0 +1,401 @@
+{
+  "protocol": "Fixed 30-minute bins; train through 14 then evaluate 15-21; train through 23 then evaluate 24-31. No retuning. This audit uses previously seen October data and is not an untouched final test.",
+  "caveats": [
+    "Segment universe was originally selected on full-month volume; segment evaluation remains conditional, even when per-fold keys require training observations.",
+    "Previous-week baseline may use earlier validation outcomes: a rolling operational benchmark, not a frozen forecast.",
+    "Pairwise rows are correlated across dates and neighbouring segments; no binomial confidence interval or occupancy claim.",
+    "WAPE weights high-volume cells. Same-key departure ranking reduces, but cannot remove, sampling and supply confounding."
+  ],
+  "route": [
+    {
+      "train_end": "2026-10-14",
+      "validation_end": "2026-10-21",
+      "keys": 2165,
+      "metrics": {
+        "constant": {
+          "mae": 0.9235,
+          "wape": 1.1931,
+          "rank_correlation": 0.477,
+          "cells": 727440
+        },
+        "same_slot": {
+          "mae": 0.5555,
+          "wape": 0.7177,
+          "rank_correlation": 0.6621,
+          "cells": 727440
+        },
+        "seasonal": {
+          "mae": 0.5534,
+          "wape": 0.715,
+          "rank_correlation": 0.6621,
+          "cells": 727440
+        },
+        "previous_week": {
+          "mae": 0.6592,
+          "wape": 0.8515,
+          "rank_correlation": 0.63,
+          "cells": 727440
+        }
+      },
+      "within_key_departure_ranking": {
+        "constant": {
+          "correct": 0,
+          "wrong": 0,
+          "predicted_ties": 311266,
+          "actual_ties": 613189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5,
+          "eligible_pairs": 311266
+        },
+        "same_slot": {
+          "correct": 193195,
+          "wrong": 102147,
+          "predicted_ties": 15924,
+          "actual_ties": 613189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6463,
+          "eligible_pairs": 311266
+        },
+        "seasonal": {
+          "correct": 195212,
+          "wrong": 105245,
+          "predicted_ties": 10809,
+          "actual_ties": 613189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6445,
+          "eligible_pairs": 311266
+        },
+        "previous_week": {
+          "correct": 131019,
+          "wrong": 83824,
+          "predicted_ties": 96423,
+          "actual_ties": 613189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5758,
+          "eligible_pairs": 311266
+        }
+      },
+      "daily": {
+        "2026-10-15": {
+          "wape": 0.5427,
+          "same_slot_wape": 0.5531
+        },
+        "2026-10-16": {
+          "wape": 0.5699,
+          "same_slot_wape": 0.5742
+        },
+        "2026-10-17": {
+          "wape": 0.6833,
+          "same_slot_wape": 0.7003
+        },
+        "2026-10-18": {
+          "wape": 1.4001,
+          "same_slot_wape": 1.596
+        },
+        "2026-10-19": {
+          "wape": 0.6986,
+          "same_slot_wape": 0.6591
+        },
+        "2026-10-20": {
+          "wape": 1.1773,
+          "same_slot_wape": 1.0693
+        },
+        "2026-10-21": {
+          "wape": 0.5538,
+          "same_slot_wape": 0.5548
+        }
+      }
+    },
+    {
+      "train_end": "2026-10-23",
+      "validation_end": "2026-10-31",
+      "keys": 2228,
+      "metrics": {
+        "constant": {
+          "mae": 0.9551,
+          "wape": 1.0935,
+          "rank_correlation": 0.4962,
+          "cells": 855552
+        },
+        "same_slot": {
+          "mae": 0.5232,
+          "wape": 0.5991,
+          "rank_correlation": 0.6833,
+          "cells": 855552
+        },
+        "seasonal": {
+          "mae": 0.5138,
+          "wape": 0.5883,
+          "rank_correlation": 0.6831,
+          "cells": 855552
+        },
+        "previous_week": {
+          "mae": 0.624,
+          "wape": 0.7145,
+          "rank_correlation": 0.6459,
+          "cells": 855552
+        }
+      },
+      "within_key_departure_ranking": {
+        "constant": {
+          "correct": 0,
+          "wrong": 0,
+          "predicted_ties": 380000,
+          "actual_ties": 707264,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5,
+          "eligible_pairs": 380000
+        },
+        "same_slot": {
+          "correct": 243681,
+          "wrong": 122223,
+          "predicted_ties": 14096,
+          "actual_ties": 707264,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6598,
+          "eligible_pairs": 380000
+        },
+        "seasonal": {
+          "correct": 245016,
+          "wrong": 125702,
+          "predicted_ties": 9282,
+          "actual_ties": 707264,
+          "accuracy_with_half_credit_for_prediction_ties": 0.657,
+          "eligible_pairs": 380000
+        },
+        "previous_week": {
+          "correct": 153893,
+          "wrong": 97555,
+          "predicted_ties": 128552,
+          "actual_ties": 707264,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5741,
+          "eligible_pairs": 380000
+        }
+      },
+      "daily": {
+        "2026-10-24": {
+          "wape": 0.5948,
+          "same_slot_wape": 0.583
+        },
+        "2026-10-25": {
+          "wape": 0.8548,
+          "same_slot_wape": 1.0042
+        },
+        "2026-10-26": {
+          "wape": 0.5532,
+          "same_slot_wape": 0.5534
+        },
+        "2026-10-27": {
+          "wape": 0.5228,
+          "same_slot_wape": 0.5355
+        },
+        "2026-10-28": {
+          "wape": 0.5283,
+          "same_slot_wape": 0.5391
+        },
+        "2026-10-29": {
+          "wape": 0.5833,
+          "same_slot_wape": 0.5824
+        },
+        "2026-10-30": {
+          "wape": 0.5896,
+          "same_slot_wape": 0.5862
+        },
+        "2026-10-31": {
+          "wape": 0.6076,
+          "same_slot_wape": 0.5906
+        }
+      }
+    }
+  ],
+  "segment": [
+    {
+      "train_end": "2026-10-14",
+      "validation_end": "2026-10-21",
+      "keys": 4769,
+      "metrics": {
+        "constant": {
+          "mae": 0.9864,
+          "wape": 1.2954,
+          "rank_correlation": 0.3383,
+          "cells": 1602384
+        },
+        "same_slot": {
+          "mae": 0.6272,
+          "wape": 0.8237,
+          "rank_correlation": 0.6409,
+          "cells": 1602384
+        },
+        "seasonal": {
+          "mae": 0.6328,
+          "wape": 0.831,
+          "rank_correlation": 0.6406,
+          "cells": 1602384
+        },
+        "previous_week": {
+          "mae": 0.7512,
+          "wape": 0.9866,
+          "rank_correlation": 0.533,
+          "cells": 1602384
+        }
+      },
+      "within_key_departure_ranking": {
+        "constant": {
+          "correct": 0,
+          "wrong": 0,
+          "predicted_ties": 1002686,
+          "actual_ties": 1033677,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5,
+          "eligible_pairs": 1002686
+        },
+        "same_slot": {
+          "correct": 597053,
+          "wrong": 355236,
+          "predicted_ties": 50397,
+          "actual_ties": 1033677,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6206,
+          "eligible_pairs": 1002686
+        },
+        "seasonal": {
+          "correct": 606104,
+          "wrong": 368996,
+          "predicted_ties": 27586,
+          "actual_ties": 1033677,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6182,
+          "eligible_pairs": 1002686
+        },
+        "previous_week": {
+          "correct": 396743,
+          "wrong": 274090,
+          "predicted_ties": 331853,
+          "actual_ties": 1033677,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5612,
+          "eligible_pairs": 1002686
+        }
+      },
+      "daily": {
+        "2026-10-15": {
+          "wape": 0.641,
+          "same_slot_wape": 0.6438
+        },
+        "2026-10-16": {
+          "wape": 0.7257,
+          "same_slot_wape": 0.7184
+        },
+        "2026-10-17": {
+          "wape": 0.7955,
+          "same_slot_wape": 0.7977
+        },
+        "2026-10-18": {
+          "wape": 1.458,
+          "same_slot_wape": 1.55
+        },
+        "2026-10-19": {
+          "wape": 0.7991,
+          "same_slot_wape": 0.7672
+        },
+        "2026-10-20": {
+          "wape": 1.2399,
+          "same_slot_wape": 1.1558
+        },
+        "2026-10-21": {
+          "wape": 0.669,
+          "same_slot_wape": 0.6652
+        }
+      }
+    },
+    {
+      "train_end": "2026-10-23",
+      "validation_end": "2026-10-31",
+      "keys": 4769,
+      "metrics": {
+        "constant": {
+          "mae": 1.0547,
+          "wape": 1.1865,
+          "rank_correlation": 0.3442,
+          "cells": 1831296
+        },
+        "same_slot": {
+          "mae": 0.6218,
+          "wape": 0.6996,
+          "rank_correlation": 0.6891,
+          "cells": 1831296
+        },
+        "seasonal": {
+          "mae": 0.6171,
+          "wape": 0.6943,
+          "rank_correlation": 0.6889,
+          "cells": 1831296
+        },
+        "previous_week": {
+          "mae": 0.7482,
+          "wape": 0.8417,
+          "rank_correlation": 0.556,
+          "cells": 1831296
+        }
+      },
+      "within_key_departure_ranking": {
+        "constant": {
+          "correct": 0,
+          "wrong": 0,
+          "predicted_ties": 1251083,
+          "actual_ties": 1076189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5,
+          "eligible_pairs": 1251083
+        },
+        "same_slot": {
+          "correct": 780120,
+          "wrong": 427094,
+          "predicted_ties": 43869,
+          "actual_ties": 1076189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6411,
+          "eligible_pairs": 1251083
+        },
+        "seasonal": {
+          "correct": 788227,
+          "wrong": 442252,
+          "predicted_ties": 20604,
+          "actual_ties": 1076189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.6383,
+          "eligible_pairs": 1251083
+        },
+        "previous_week": {
+          "correct": 484810,
+          "wrong": 326229,
+          "predicted_ties": 440044,
+          "actual_ties": 1076189,
+          "accuracy_with_half_credit_for_prediction_ties": 0.5634,
+          "eligible_pairs": 1251083
+        }
+      },
+      "daily": {
+        "2026-10-24": {
+          "wape": 0.7069,
+          "same_slot_wape": 0.6959
+        },
+        "2026-10-25": {
+          "wape": 0.951,
+          "same_slot_wape": 1.0314
+        },
+        "2026-10-26": {
+          "wape": 0.6638,
+          "same_slot_wape": 0.6627
+        },
+        "2026-10-27": {
+          "wape": 0.6209,
+          "same_slot_wape": 0.6278
+        },
+        "2026-10-28": {
+          "wape": 0.6284,
+          "same_slot_wape": 0.6329
+        },
+        "2026-10-29": {
+          "wape": 0.672,
+          "same_slot_wape": 0.671
+        },
+        "2026-10-30": {
+          "wape": 0.7076,
+          "same_slot_wape": 0.7012
+        },
+        "2026-10-31": {
+          "wape": 0.7046,
+          "same_slot_wape": 0.6971
+        }
+      }
+    }
+  ]
+}

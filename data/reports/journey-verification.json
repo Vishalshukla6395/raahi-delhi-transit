@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "data": "Official full GTFS and actual October e-ticket records",
+  "demo": {
+    "available": true,
+    "origin": {
+      "id": "2301",
+      "name": "Hamdard Nagar / Sangam Vihar",
+      "lat": 28.51206008001974,
+      "lon": 77.2487081586769
+    },
+    "destination": {
+      "id": "2848",
+      "name": "Badarpur M B Road / Rajiv Gandhi Stadium",
+      "lat": 28.4995,
+      "lon": 77.299267
+    },
+    "departure": "2026-11-24T20:00:00+05:30",
+    "mode": "less_crowded",
+    "transfers": false,
+    "reason": "Illustrative trade-off discovered in real data; not a representative impact measurement."
+  },
+  "cases": [
+    {
+      "request": {
+        "origin": "2301",
+        "destination": "2848",
+        "departure": "2026-11-24T08:00:00+05:30",
+        "mode": "fastest",
+        "transfers": true
+      },
+      "elapsed_seconds": 7.029,
+      "alternatives": 5,
+      "journeys": [
+        {
+          "routes": [
+            "GURGAON TO BADARPUR BORDER DOWN"
+          ],
+          "duration": 20,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "717ADOWN"
+          ],
+          "duration": 23,
+          "demand_index": 100,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "544UP"
+          ],
+          "duration": 23,
+          "demand_index": 98,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "34UP"
+          ],
+          "duration": 26,
+          "demand_index": null,
+          "coverage": 0.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "525STLDOWN"
+          ],
+          "duration": 26,
+          "demand_index": 100,
+          "coverage": 1.0,
+          "transfers": 0
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    },
+    {
+      "request": {
+        "origin": "2301",
+        "destination": "2848",
+        "departure": "2026-11-24T18:00:00+05:30",
+        "mode": "balanced",
+        "transfers": true
+      },
+      "elapsed_seconds": 6.745,
+      "alternatives": 5,
+      "journeys": [
+        {
+          "routes": [
+            "717DOWN"
+          ],
+          "duration": 20,
+          "demand_index": 98,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "717BDOWN"
+          ],
+          "duration": 21,
+          "demand_index": 98,
+          "coverage": 1.0,
+          "transfers": 0
+        },
+        {
+          "routes": [
+            "717BDOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 47,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "717DOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 47,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "525STLDOWN"
+          ],
+          "duration": 26,
+          "demand_index": 99,
+          "coverage": 1.0,
+          "transfers": 0
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    },
+    {
+      "request": {
+        "origin": "2301",
+        "destination": "2848",
+        "departure": "2026-11-24T18:00:00+05:30",
+        "mode": "less_crowded",
+        "transfers": true
+      },
+      "elapsed_seconds": 5.286,
+      "alternatives": 5,
+      "journeys": [
+        {
+          "routes": [
+            "717BDOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 47,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "717DOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 47,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "717DOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 59,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "717BDOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 62,
+          "coverage": 1.0,
+          "transfers": 1
+        },
+        {
+          "routes": [
+            "717DOWN",
+            "511DOWN"
+          ],
+          "duration": 26,
+          "demand_index": 62,
+          "coverage": 1.0,
+          "transfers": 1
+        }
+      ],
+      "departure_options": [
+        {
+          "offset": 0,
+          "available": true
+        },
+        {
+          "offset": 15,
+          "available": true
+        },
+        {
+          "offset": 30,
+          "available": true
+        },
+        {
+          "offset": 60,
+          "available": true
+        }
+      ]
+    }
+  ],
+  "browser_verified": false,
+  "scope": "Real localhost HTTP integration; not browser or field verification"
+}

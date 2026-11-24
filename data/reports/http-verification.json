@@ -1,0 +1,13 @@
+{
+  "http_checks": "PASS",
+  "actual_ticket_records": 2559899,
+  "route": "717aup",
+  "profile_points": 48,
+  "profile_latency_ms_median": 10.1,
+  "profile_latency_ms_max": 14.55,
+  "latency_scope": "10 localhost HTTP requests; not a load benchmark",
+  "routing_ready": true,
+  "invalid_timezone_status": 422,
+  "journey_status": 422,
+  "browser_verified": false
+}
