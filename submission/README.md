@@ -1,3 +1,5 @@
+> Publication confirmed: source, proposal, technical note, MP4 demo and six key screenshots are published on the repository main branch. The original WebM and extended screenshot history are included only in the complete local ZIP; links to those extended screenshots in historical design reports are local-archive references. No hosted app or hackathon portal submission is claimed.
+
 > Final preparation update (24 November, late evening IST): Team Turing details are supplied. Source destination: https://github.com/Vishalshukla6395/raahi-delhi-transit. See [submission handoff](submit-now.md) for current upload files and status. Earlier no-remote/team-missing notes below describe the prior audit snapshot. No portal submission has been performed. Refreshed browser interactions pass; external map tiles had cancellations/incomplete loading, so earlier zero-failed-request claims do not describe this latest run.
 
 # Phase 1 submission package

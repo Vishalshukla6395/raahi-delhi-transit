@@ -27,6 +27,8 @@ RAAHI helps Delhi bus commuters compare scheduled journey time with historical s
 
 ## Submission status
 
+Source, PDFs and MP4 are published on the repository main branch. The local master branch preserves full development history; submission-publish tracks the compact public snapshot. The original WebM and extended screenshots remain in the local ZIP.
+
 The official listing states 24 November 2026, 6:29 PM IST as the Phase 1 deadline, already past at this preparation time, while still displaying Live. Acceptance or an extension must be checked in the registered team's portal. No portal submission or receipt is claimed here.
 
 Portal: https://whereuelevate.com/drills/transport-stack-hackathon-2026
