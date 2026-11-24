@@ -3,11 +3,12 @@
 import json
 from bisect import bisect_right
 from datetime import datetime
-import numpy as np
-import pandas as pd
 
 
 def metrics(actual, predicted):
+    import numpy as np
+    import pandas as pd
+
     a, p = np.asarray(actual, dtype=float), np.asarray(predicted, dtype=float)
     if not len(a):
         return dict(mae=None, wape=None, rank_correlation=None, cells=0)
@@ -28,6 +29,8 @@ def metrics(actual, predicted):
 
 
 def dense_history(frame, dates, minutes):
+    import pandas as pd
+
     f = frame.copy()
     f["bucket"] = (f["bucket15"] // (minutes // 15)).astype(int)
     grouped = f.groupby(["date", "bucket"])[["passengers", "tickets"]].sum()
@@ -43,6 +46,9 @@ def dense_history(frame, dates, minutes):
 
 def fit(frame, minutes=30, strategy="seasonal"):
     """Rows: key, date, bucket15, passengers, tickets. Missing cells = no observed tickets."""
+    import numpy as np
+    import pandas as pd
+
     if strategy not in {"seasonal", "same_slot"}:
         raise ValueError("strategy must be 'seasonal' or 'same_slot'")
     f = frame.copy()

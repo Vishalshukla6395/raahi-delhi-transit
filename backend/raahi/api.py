@@ -1,6 +1,7 @@
 """Versioned read-only API. Missing data never becomes a synthetic success response."""
 
 import json
+import gzip
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta
 from functools import lru_cache
@@ -19,7 +20,13 @@ from .schemas import JourneyResponse
 
 
 def read_json(path, default=None):
-    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    compressed = path.with_suffix(path.suffix + ".gz")
+    if compressed.exists():
+        with gzip.open(compressed, "rt", encoding="utf-8") as stream:
+            return json.load(stream)
+    return default
 
 
 class SearchRequest(BaseModel):
